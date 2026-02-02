@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-brand-green: #27ae60;
+  --color-brand-orange: #f39c12;
+  --color-brand-gray: #f9f9f9;
+  --color-brand-dark: #000000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+}
+
+.section-padding {
+  padding: 6rem 4rem;
+}
+
+@media (max-width:576px) {
+  .section-padding {
+    padding: 2rem 0;
+  }
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -.125em;
+}
