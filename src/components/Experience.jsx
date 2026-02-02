@@ -32,7 +32,7 @@ const Experience = () => {
     <section
   id="experience"
   className="
-    py-24
+    section-padding
     bg-white dark:bg-brand-dark
     scroll-reveal visible
   "
@@ -51,14 +51,14 @@ const Experience = () => {
 
     <div className="relative">
       {/* Timeline line */}
-      <div className="absolute left-1/2 -translate-x-1/2 w-0.5 h-full bg-gray-200 dark:bg-gray-700"></div>
+      <div className="absolute hidden md:block left-1/2 -translate-x-1/2 w-0.5 h-full bg-gray-200 dark:bg-gray-700"></div>
 
       <div className="space-y-12">
 
         {/* Experience 1 */}
         <div className="relative group">
           <div className="md:flex items-center">
-            <div className="md:w-1/2 md:pr-8 text-right">
+            <div className="md:w-1/2 md:pr-8 md:text-right">
               <p className="text-sm text-gray-500 dark:text-gray-400">
                 2025 - Present
               </p>
@@ -144,7 +144,7 @@ const Experience = () => {
         {/* Education */}
         <div className="relative group">
           <div className="md:flex items-center">
-            <div className="md:w-1/2 md:pr-8 text-right">
+            <div className="md:w-1/2 md:pr-8 md:text-right">
               <p className="text-sm text-gray-500 dark:text-gray-400">
                 2021 - 2024
               </p>

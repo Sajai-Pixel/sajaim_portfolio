@@ -14,9 +14,11 @@ const ThemeToggle = () => {
   return (
     <button
       onClick={() => setDark(!dark)}
-      className="p-2 rounded-lg bg-gray-200 dark:bg-gray-800 cursor-pointer hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors duration-300"
+      className="w-10 h-10 flex items-center justify-center rounded-lg transition-colors duration-300 bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700"
     >
-      {dark ? '🌙' : '☀️'}
+      <span className="text-lg leading-none">
+        {dark ? "🌙" : "☀️"}
+      </span>
     </button>
   )
 }

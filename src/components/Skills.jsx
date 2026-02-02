@@ -42,7 +42,7 @@ const Skills = () => {
 
   return (
     <motion.div
-      className="flex flex-wrap gap-5 md:gap-6 justify-center max-w-5xl mx-auto"
+      className="flex md:flex-wrap flex-col md:flex-row gap-5 md:gap-6 justify-center max-w-5xl mx-auto"
       variants={container}
       initial="hidden"
       whileInView="visible"

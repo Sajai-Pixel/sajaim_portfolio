@@ -6,10 +6,10 @@ const Navbar = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-black backdrop-blur-sm shadow-sm">
-      <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
+      <nav className="container mx-auto px-3 md:px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <a href="#" className="text-2xl font-bold text-gray-900 dark:text-white">
-          <img src={logo} alt="" width="128px" />
+          <img src={logo} alt="" className="w-20 md:w-32" />
         </a>
 
         {/* Desktop Menu */}
@@ -19,56 +19,56 @@ const Navbar = () => {
               <a
                 key={index}
                 href={`#${item.toLowerCase()}`}
-                className="relative text-gray-600 dark:text-white hover:text-[#27ae60] transition-colors duration-300 group"
+                className="relative text-gray-600 dark:text-white hover:text-brand-green transition-colors duration-300 group"
               >
                 {item}
                 {/* underline animation */}
-                <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#27ae60] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-brand-green transition-all duration-300 group-hover:w-full"></span>
               </a>
             )
           )}
         </div>
 
-        <div>
-        {/* Resume Button */}
-        <a
-          href="#contact"
-          className="hidden md:inline-block bg-[#27ae60] me-2 text-white px-5 py-2 rounded-lg hover:bg-green-700 transition-colors duration-300"
-        >
-          Resume
-        </a>
-        <ThemeToggle/>
-        </div>
         {/* Mobile Menu Button */}
-        <button
-          className="md:hidden text-2xl focus:outline-none"
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          <i className={`fa-solid ${menuOpen ? "fa-xmark" : "fa-bars"}`}></i>
-        </button>
-        
+        <div className="flex">
+          {/* Resume Button */}
+          <a
+            href="#contact"
+            className="hidden md:inline-block bg-brand-green me-2 text-white px-5 py-2 rounded-lg hover:bg-green-700 transition-colors duration-300"
+          >
+            Resume
+          </a>
+          <ThemeToggle />
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            className={"w-10 h-10 flex items-center justify-center rounded-lg transition-colors duration-300 md:hidden text-gray-900 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"}
+          >
+            <i className={`fa-solid ${menuOpen ? "fa-xmark" : "fa-bars"} text-lg`}></i>
+          </button>
+
+        </div>
       </nav>
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden bg-white/90 backdrop-blur-sm shadow-md py-4 px-6 space-y-4 text-center animate-fade-in">
+        <div className="md:hidden bg-white/90 dark:bg-gray-900 backdrop-blur-sm shadow-md py-4 px-6 space-y-4 animate-fade-in">
           {["Home", "About", "Experience", "Projects", "Contact"].map(
             (item, index) => (
               <a
                 key={index}
                 href={`#${item.toLowerCase()}`}
-                className="block text-gray-700 hover:text-[#27ae60] transition-colors duration-300 relative group"
+                className="block text-gray-700 dark:text-white hover:text-brand-green transition-colors duration-300 relative group text-fade-in-left"
                 onClick={() => setMenuOpen(false)}
               >
                 {item}
-                <span className="absolute left-1/2 -bottom-1 w-0 h-[2px] bg-[#27ae60] transition-all duration-300 group-hover:w-1/2 group-hover:left-1/4"></span>
+                <span className="absolute left-1/2 -bottom-1 w-0 h-0.5 bg-brand-green transition-all duration-300 group-hover:w-1/2 group-hover:left-1/4"></span>
               </a>
             )
           )}
 
           <a
             href="#contact"
-            className="inline-block bg-[#27ae60] text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors duration-300"
+            className="inline-block bg-brand-green text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors duration-300"
             onClick={() => setMenuOpen(false)}
           >
             Resume
