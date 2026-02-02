@@ -5,10 +5,10 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-black backdrop-blur-sm shadow-sm">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-black/80 backdrop-blur-sm shadow-sm">
       <nav className="container mx-auto px-3 md:px-6 py-4 flex justify-between items-center">
         {/* Logo */}
-        <a href="#" className="text-2xl font-bold text-gray-900 dark:text-white">
+        <a href="https://sajaim-portfolio.vercel.app/" className="text-2xl font-bold text-gray-900 dark:text-white">
           <img src={logo} alt="" className="w-20 md:w-32" />
         </a>
 
