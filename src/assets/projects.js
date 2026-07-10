@@ -1,13 +1,13 @@
 const projects = [
   // ---------------- Shopify ----------------
-  {
-    id: 1,
-    title: "I-Brand",
-    description: "A Shopify storefront for I-Brand with a clean product catalog and a streamlined checkout experience.",
-    category: "Shopify",
-    tech: ["Shopify"],
-    url: "https://i-brand-globosoft.myshopify.com/"  
-  },
+  // {
+  //   id: 1,
+  //   title: "I-Brand",
+  //   description: "A Shopify storefront for I-Brand with a clean product catalog and a streamlined checkout experience.",
+  //   category: "Shopify",
+  //   tech: ["Shopify"],
+  //   url: "https://i-brand-globosoft.myshopify.com/"  
+  // },
   {
     id: 2,
     title: "Coral Perfumes",
@@ -30,23 +30,23 @@ const projects = [
     description: "A Shopify store for Priya Boutique, showcasing a curated women's fashion and apparel collection.",
     category: "Shopify",
     tech: ["Shopify"],
-    url: "https://priya-boutique-globosoft.myshopify.com/"  
+    url: "https://priyabtqonline.com/"  
   },
-  {
-    id: 5,
-    title: "Western Lady",
-    description: "A Shopify store for Western Lady, featuring women's western wear and everyday fashion.",
-    category: "Shopify",
-    tech: ["Shopify"],
-    url: "https://western-lady-globosoft.myshopify.com/"  
-  },
+  // {
+  //   id: 5,
+  //   title: "Western Lady",
+  //   description: "A Shopify store for Western Lady, featuring women's western wear and everyday fashion.",
+  //   category: "Shopify",
+  //   tech: ["Shopify"],
+  //   url: "https://western-lady-globosoft.myshopify.com/"  
+  // },
   {
     id: 6,
     title: "Oceano",
     description: "A Shopify storefront for Oceano with a curated product range and a smooth shopping flow.",
     category: "Shopify",
     tech: ["Shopify"],
-    url: "https://oceano-globosoft.myshopify.com/"  
+    url: "https://shop.oceano.ae/"  
   },
   {
     id: 7,
@@ -62,7 +62,7 @@ const projects = [
     description: "The UAE edition of Ekava's Shopify store, extending the brand's catalog to Gulf customers.",
     category: "Shopify",
     tech: ["Shopify"],
-    url: "https://ekava-uae.myshopify.com/"  
+    url: "https://ekava.ae/"  
   },
   {
     id: 9,
@@ -80,14 +80,14 @@ const projects = [
     tech: ["Shopify"],
     url: "https://americantourister.com.sa/"
   },
-  {
-    id: 11,
-    title: "Nestalgia",
-    description: "A Shopify store for Nestalgia, presenting its product collection in a modern, mobile-friendly storefront.",
-    category: "Shopify",
-    tech: ["Shopify"],
-    url: "https://nestalgia-globosoft.myshopify.com/"  
-  },
+  // {
+  //   id: 11,
+  //   title: "Nestalgia",
+  //   description: "A Shopify store for Nestalgia, presenting its product collection in a modern, mobile-friendly storefront.",
+  //   category: "Shopify",
+  //   tech: ["Shopify"],
+  //   url: "https://nestalgia-globosoft.myshopify.com/"  
+  // },
   {
     id: 12,
     title: "Deorkart",
@@ -102,16 +102,16 @@ const projects = [
     description: "A Shopify storefront for Jasperware, showcasing its products with a clean catalog and checkout.",
     category: "Shopify",
     tech: ["Shopify"],
-    url: "https://jasperware.myshopify.com/"  
+    url: "https://jasperware.in/"  
   },
-  {
-    id: 14,
-    title: "Thai Arab",
-    description: "A Shopify store for Thai Arab with a full product catalog and online checkout.",
-    category: "Shopify",
-    tech: ["Shopify"],
-    url: "https://thai-arab.myshopify.com/"  
-  },
+  // {
+  //   id: 14,
+  //   title: "Thai Arab",
+  //   description: "A Shopify store for Thai Arab with a full product catalog and online checkout.",
+  //   category: "Shopify",
+  //   tech: ["Shopify"],
+  //   url: "https://thai-arab.myshopify.com/"  
+  // },
   {
     id: 15,
     title: "American Tourister Bahrain",
@@ -228,14 +228,14 @@ const projects = [
     tech: ["HTML", "CSS", "JavaScript"],
     url: "https://gss-digital.com/"  
   },
-  {
-    id: 29,
-    title: "Crown Cres Events",
-    description: "A dynamic event management platform featuring comprehensive event planning services, portfolio showcase, and booking capabilities for corporate and social gatherings",
-    category: "HTML",
-    tech: ["HTML", "CSS", "JavaScript"],
-    url: "https://crowncres.com/"
-  },
+  // {
+  //   id: 29,
+  //   title: "Crown Cres Events",
+  //   description: "A dynamic event management platform featuring comprehensive event planning services, portfolio showcase, and booking capabilities for corporate and social gatherings",
+  //   category: "HTML",
+  //   tech: ["HTML", "CSS", "JavaScript"],
+  //   url: "https://crowncres.com/"
+  // },
   {
     id: 30,
     title: "Finmantra Group",

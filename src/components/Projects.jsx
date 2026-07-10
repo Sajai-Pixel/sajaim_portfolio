@@ -5,9 +5,6 @@ import projects from '../assets/projects.js'
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('All')
 
-  // Tabs are built automatically from the `category` field on each project.
-  // (Swap this for a hardcoded array like ['All', 'Shopify', 'OpenCart']
-  //  if you want to control the tab order manually.)
   const categories = useMemo(() => {
     const unique = [...new Set(projects.map((p) => p.category).filter(Boolean))]
     return ['All', ...unique]
@@ -21,7 +18,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="section-padding bg-brand-gray dark:bg-brand-dark scroll-reveal visible"
+      className="section-padding py-0 bg-brand-gray dark:bg-brand-dark scroll-reveal visible"
     >
       <div className="container mx-auto px-6">
         {/* Header */}
