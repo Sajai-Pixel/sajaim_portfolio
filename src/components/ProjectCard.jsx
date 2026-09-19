@@ -28,6 +28,14 @@ const categoryConfig = {
     link: 'text-emerald-600 hover:text-emerald-500 dark:text-emerald-400 dark:hover:text-emerald-300',
     border: 'hover:border-emerald-500/60',
   },
+  React: {
+    icon: 'fa-react',
+    strip: 'bg-cyan-500',
+    divider: 'bg-cyan-500',
+    pill: 'bg-cyan-500/10 text-cyan-700 ring-cyan-500/30 dark:text-cyan-300 dark:ring-cyan-400/30',
+    link: 'text-cyan-600 hover:text-cyan-500 dark:text-cyan-400 dark:hover:text-cyan-300',
+    border: 'hover:border-cyan-500/60',
+  },
 }
 
 const ProjectCard = ({ project }) => {

@@ -9,12 +9,44 @@ const projects = [
   //   url: "https://i-brand-globosoft.myshopify.com/"  
   // },
   {
+    id: 32,
+    title: "Red Play",
+    description: "A modern React-based web application for media uploading and categorizing with drag and drop option.",
+    category: "React",
+    tech: ["React", "CSS"],
+    url: "https://red-play-eta.vercel.app/home"
+  },
+  {
+    id: 33,
+    title: "Weather App",
+    description: "A travel website for Budget Holidays, presenting affordable holiday packages and tour enquiries.",
+    category: "React",
+    tech: ["React", "CSS"],
+    url: "https://react-climate-24.netlify.app/"
+  },
+  {
+    id: 34,
+    title: "Velora",
+    description: "A full-stack e-commerce website built with the MERN stack, featuring secure user authentication, product management, shopping cart, wishlist, and order functionality. Redux Toolkit is used for state management, and Cloudinary is integrated for product image storage and management.",
+    category: "MERN",
+    tech: ["REACT", "NODE", "EXPRESS", "MONGODB", "REDUX"],
+    url: "https://velora-frontend-sooty.vercel.app/"
+  },
+  {
+    id: 34,
+    title: "Kitchen Chronicles",
+    description: "A responsive recipe-sharing web application built with MERN, featuring recipe browsing, categories, detailed recipe pages, reusable components, and API integration.",
+    category: "MERN",
+    tech: ["REACT", "NODE", "EXPRESS", "MONGODB"],
+    url: "https://kitchenchronicles-frontend.vercel.app/"
+  },
+  {
     id: 2,
     title: "Coral Perfumes",
     description: "An online fragrance store presenting Coral Perfumes' range of perfumes and scents in a polished storefront.",
     category: "Shopify",
     tech: ["Shopify"],
-    url: "https://www.coralperfumes.com/"  
+    url: "https://www.coralperfumes.com/"
   },
   {
     id: 3,
@@ -22,7 +54,7 @@ const projects = [
     description: "A Shopify-built website for Pax Hospitality, presenting the brand's hospitality offerings and enquiry options.",
     category: "Shopify",
     tech: ["Shopify"],
-    url: "https://paxhospitality.com/"  
+    url: "https://paxhospitality.com/"
   },
   {
     id: 4,
@@ -30,7 +62,7 @@ const projects = [
     description: "A Shopify store for Priya Boutique, showcasing a curated women's fashion and apparel collection.",
     category: "Shopify",
     tech: ["Shopify"],
-    url: "https://priyabtqonline.com/"  
+    url: "https://priyabtqonline.com/"
   },
   // {
   //   id: 5,
@@ -46,7 +78,7 @@ const projects = [
     description: "A Shopify storefront for Oceano with a curated product range and a smooth shopping flow.",
     category: "Shopify",
     tech: ["Shopify"],
-    url: "https://shop.oceano.ae/"  
+    url: "https://shop.oceano.ae/"
   },
   {
     id: 7,
@@ -54,7 +86,7 @@ const projects = [
     description: "The India storefront for Ekava, offering the brand's products with online ordering and delivery.",
     category: "Shopify",
     tech: ["Shopify"],
-    url: "https://ekava.in/"  
+    url: "https://ekava.in/"
   },
   {
     id: 8,
@@ -62,7 +94,7 @@ const projects = [
     description: "The UAE edition of Ekava's Shopify store, extending the brand's catalog to Gulf customers.",
     category: "Shopify",
     tech: ["Shopify"],
-    url: "https://ekava.ae/"  
+    url: "https://ekava.ae/"
   },
   {
     id: 9,
@@ -102,7 +134,7 @@ const projects = [
     description: "A Shopify storefront for Jasperware, showcasing its products with a clean catalog and checkout.",
     category: "Shopify",
     tech: ["Shopify"],
-    url: "https://jasperware.in/"  
+    url: "https://jasperware.in/"
   },
   // {
   //   id: 14,
@@ -136,7 +168,7 @@ const projects = [
     description: "An OpenCart store for Black Rose, featuring its product range with category browsing and checkout.",
     category: "OpenCart",
     tech: ["OpenCart", "CSS"],
-    url: "https://blackrose.shop/"  
+    url: "https://blackrose.shop/"
   },
   {
     id: 18,
@@ -152,7 +184,7 @@ const projects = [
     description: "An OpenCart e-commerce site for Tarshish, offering an online product catalog with UAE delivery.",
     category: "OpenCart",
     tech: ["OpenCart", "CSS"],
-    url: "https://tarshish.ae/"  
+    url: "https://tarshish.ae/"
   },
   {
     id: 20,
@@ -168,7 +200,7 @@ const projects = [
     description: "An OpenCart storefront for Arar with a full product catalog and shopping-cart checkout.",
     category: "OpenCart",
     tech: ["OpenCart", "CSS"],
-    url: "https://arar.com/"  
+    url: "https://arar.com/"
   },
   {
     id: 22,
@@ -176,10 +208,50 @@ const projects = [
     description: "A concept storefront for Lulu Connect, showcasing consumer electronics, gadgets, and home appliances.",
     category: "OpenCart",
     tech: ["OpenCart", "CSS"],
-    url: "https://globosoft.org/2025/01/luluconnectnew/"  
+    url: "https://globosoft.org/2025/01/luluconnectnew/"
   },
 
   // ---------------- HTML ----------------
+  {
+    id: 30,
+    title: "Finmantra Group",
+    description: "A corporate website for Finmantra Group presenting its financial and investment services with an enquiry-driven layout.",
+    category: "HTML",
+    tech: ["HTML", "CSS", "JavaScript"],
+    url: "https://finmantragroup.com/"
+  },
+  {
+    id: 31,
+    title: "Budget Holidays",
+    description: "A travel website for Budget Holidays, presenting affordable holiday packages and tour enquiries.",
+    category: "HTML",
+    tech: ["HTML", "CSS", "JavaScript"],
+    url: "https://www.budgetholidaysindia.com/"
+  },
+  {
+    id: 28,
+    title: "GSS Digital",
+    description: "A digital agency website for GSS Digital, presenting services, portfolio, and contact options.",
+    category: "HTML",
+    tech: ["HTML", "CSS", "JavaScript"],
+    url: "https://gss-digital.com/"
+  },
+  {
+    id: 26,
+    title: "Eka Breath",
+    description: "A wellness-focused website for Eka Breath, presenting breathing and mindfulness offerings with a calm, minimal design.",
+    category: "HTML",
+    tech: ["HTML", "CSS", "JavaScript"],
+    url: "https://ekabreath.com/"
+  },
+  {
+    id: 27,
+    title: "John Paul Realty",
+    description: "A real estate website for John Paul Realty, featuring property listings, project showcases, and buyer enquiries.",
+    category: "HTML",
+    tech: ["HTML", "CSS", "JavaScript"],
+    url: "https://johnpaulrealty.in/"
+  },
   {
     id: 23,
     title: "Plumtrip",
@@ -204,30 +276,6 @@ const projects = [
     tech: ["HTML", "CSS", "JavaScript"],
     url: "https://nirmalastudyabroad.com/"
   },
-  {
-    id: 26,
-    title: "Eka Breath",
-    description: "A wellness-focused website for Eka Breath, presenting breathing and mindfulness offerings with a calm, minimal design.",
-    category: "HTML",
-    tech: ["HTML", "CSS", "JavaScript"],
-    url: "https://ekabreath.com/"  
-  },
-  {
-    id: 27,
-    title: "John Paul Realty",
-    description: "A real estate website for John Paul Realty, featuring property listings, project showcases, and buyer enquiries.",
-    category: "HTML",
-    tech: ["HTML", "CSS", "JavaScript"],
-    url: "https://johnpaulrealty.in/"  
-  },
-  {
-    id: 28,
-    title: "GSS Digital",
-    description: "A digital agency website for GSS Digital, presenting services, portfolio, and contact options.",
-    category: "HTML",
-    tech: ["HTML", "CSS", "JavaScript"],
-    url: "https://gss-digital.com/"  
-  },
   // {
   //   id: 29,
   //   title: "Crown Cres Events",
@@ -236,22 +284,7 @@ const projects = [
   //   tech: ["HTML", "CSS", "JavaScript"],
   //   url: "https://crowncres.com/"
   // },
-  {
-    id: 30,
-    title: "Finmantra Group",
-    description: "A corporate website for Finmantra Group presenting its financial and investment services with an enquiry-driven layout.",
-    category: "HTML",
-    tech: ["HTML", "CSS", "JavaScript"],
-    url: "https://finmantragroup.com/"  
-  },
-  {
-    id: 31,
-    title: "Budget Holidays",
-    description: "A travel website for Budget Holidays, presenting affordable holiday packages and tour enquiries.",
-    category: "HTML",
-    tech: ["HTML", "CSS", "JavaScript"],
-    url: "https://globosoft.org/2026/03/budgetholidays/"  
-  }
+  
 ];
 
 export default projects;
